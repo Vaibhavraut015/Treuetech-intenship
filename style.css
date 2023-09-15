@@ -1,0 +1,218 @@
+body{
+
+    background-image: url(background1.jpg);
+    background-size: cover;
+}
+
+.sidebar{
+    height: 40px;
+    width: 100%;
+    background-color: rgb(198, 198, 251);
+    margin: 0;
+    
+    
+}
+h3{
+    margin-left: 20px;
+    margin-right: 50%;
+    margin-top: 0;
+}
+
+
+ul{
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+li{
+    cursor: pointer;
+    list-style:none;
+    
+}
+ul :hover{
+    border: solid white;
+    border-radius: 5px;
+    height: 100%;
+    background-color: rgb(143, 209, 237);
+}
+
+#requestbtn{
+    border-radius: 15px;
+    background-color: violet;
+    height: 30px;
+    border: solid  rgb(235, 103, 103);
+    cursor: pointer;
+    margin-right: 0;
+}
+
+#searchbox{
+    border-radius: 5px;
+    width: 100px;
+}
+.icon{
+    margin-left: 0;
+    
+}
+
+.icon #i{
+    border: solid white;
+}
+.contact{
+    margin-left: 40%;
+    display: flex;
+    padding-left: 20px;
+}
+
+
+
+.mainbar{
+    height: 300px;
+    width: 100%;
+    background-image: url("background2.jpg");
+    padding-top: 5%;
+}
+
+h4{
+    color: white;
+}
+
+.mainbar-text{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 10%;
+    
+    border-left: solid rgb(248, 86, 16);
+
+}
+
+#readmore{
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    background-color: hotpink;
+    cursor: pointer;
+}
+
+#consult{
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    background-color: hotpink;
+    cursor: pointer;
+}
+
+.bottombar{
+    height: 150px;
+    background-color: lightpink;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+    
+}
+.bottombar :hover {
+    background-color: rgb(55, 175, 175);
+    
+    border-radius: 5px;
+}
+
+.text {
+    margin-left: 50px;
+    width: 50%;
+    height: 200px;
+    margin-right: 200px;
+    padding: 20px;
+}
+
+.about{
+    display: flex;
+}
+
+img{
+    width: 150%;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 20px;
+    
+}
+.box{
+   justify-content: space-evenly;
+   display: flex;
+}
+
+.box1:hover{
+    border: solid yellow
+    
+}
+.box2:hover{
+    border: solid yellow
+}
+.box3:hover{
+    border: solid yellow
+}
+
+.box1{
+    width: 30%;
+    height: 400px;
+    background-color: aliceblue;
+    margin: 20px;
+    background-image: url(background.png);
+    border-radius: 10px;
+
+}
+.box2{
+    width: 30%;
+    height: 400px;
+    background-color: aliceblue;
+    margin: 20px;
+    border-radius: 10px;
+    background-image: url(travel2.jpg);
+}
+.box3{
+    width: 30%;
+    height: 400px;
+    background-color: aliceblue;
+    margin: 20px; 
+    border-radius: 10px;
+    background-image: url(travel.png);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
